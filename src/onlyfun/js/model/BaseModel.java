@@ -5,6 +5,15 @@ import java.util.Date;
 public class BaseModel {
 	private Long id;
 	private String discriminator;
+	private String name;
+	private String userId;
+	private String password;
+	private Boolean sex;
+	private String idNo;
+	private Date birthday;
+	private String email;
+	private String tel;
+	
 	public Long getId() {
 		return id;
 	}
@@ -65,12 +74,4 @@ public class BaseModel {
 	public void setTel(String tel) {
 		this.tel = tel;
 	}
-	private String name;
-	private String userId;
-	private String password;
-	private Boolean sex;
-	private String idNo;
-	private Date birthday;
-	private String email;
-	private String tel;
 }
